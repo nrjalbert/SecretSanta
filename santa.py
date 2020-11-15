@@ -15,7 +15,7 @@ ans = "Y"
 while (ans != "N" and ans !="n"):
     for x in range (0,5,1):
         if family[x] == fam_suffle[x]:
-            print("Match detected, re-run program")
+            print("Match detected, re-run shuffle")
     #check to make sure no spouses are matched
     if fam_suffle[0] == "person2":
         print("Re-run the suffle")
